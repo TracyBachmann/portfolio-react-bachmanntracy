@@ -51,7 +51,7 @@ const Index = () => {
                   </div>
                   <div className="label lui-subtitle">
                     {" "}
-                    Je cherche un emploi de <strong>consultante Microsoft Power Platform</strong>
+                    Je cherche un poste de <strong>consultante Microsoft Power Platform</strong>
                   </div>
                 </div>
                 <div className="description">
@@ -77,7 +77,7 @@ const Index = () => {
                 <div className="bts">
                   <a
                     target="_blank"
-                    href="https://drive.google.com/file/d/1v4y43dbYzyg1NczrOL-fLoCUyinGOb09/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1CQN3vdD66x5XgxTrV0ao9OLVYweHEVEL/view?usp=sharing"
                     className="btn"
                   >
                     <span>Télécharger mon CV</span>
