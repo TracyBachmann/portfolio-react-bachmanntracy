@@ -1,8 +1,27 @@
 import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import PreLoader from "../src/layouts/PreLoader";
+import Typed from 'typed.js';
 import "../styles/globals.css";
-const App = ({ Component, pageProps }) => {
+
+const options = {
+  strings: ["développeuse web fullstack", "consultante Microsoft Power Platform"],
+  typeSpeed: 50,
+  backSpeed: 25,
+  backDelay: 2000,
+  loop: true
+};
+
+function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const typed = new Typed("#typed-text", options);
+      return () => {
+        typed.destroy();
+      };
+    }
+  }, []);
+
   const [loader, setLoader] = useState(true);
   useEffect(() => {
     setTimeout(() => {
@@ -90,5 +109,6 @@ const App = ({ Component, pageProps }) => {
       <Component {...pageProps} />
     </Fragment>
   );
-};
-export default App;
+}
+
+export default MyApp;

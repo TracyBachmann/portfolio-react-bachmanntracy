@@ -92,7 +92,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
         </div>
         <div className="works-items works-masonry-items row">
 
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-developpement-web sorting-design sorting-gestion-de-projet sorting-gestion-de-donnees">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
@@ -137,7 +137,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             </div>
           </div>
 
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-ui-ux-design ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-developpement-web">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
@@ -181,7 +181,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             </div>
           </div>
 
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-ui-ux-design ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-developpement-web">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
@@ -225,7 +225,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             </div>
           </div>
 
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-developpement-web">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
@@ -268,7 +268,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             </div>
           </div>
 
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-ui-ux-design ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-developpement-web">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
@@ -313,7 +313,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             </div>
           </div>
 
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-photo ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-developpement-web sorting-gestion-de-donnees">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
@@ -359,7 +359,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             </div>
           </div>
           
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-photo ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-developpement-web">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
@@ -404,7 +404,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             </div>
           </div>
 
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-photo ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-developpement-web">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
@@ -450,7 +450,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             </div>
           </div>
 
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-photo ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-developpement-web sorting-gestion-de-donnees">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
@@ -496,7 +496,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             </div>
           </div>
 
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-photo ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-developpement-web">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
@@ -542,7 +542,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             </div>
           </div>
 
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-photo ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-developpement-web sorting-gestion-de-donnees">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"

@@ -47,7 +47,7 @@ const Index = () => {
                   </h1>
                   <div className="label lui-subtitle">
                     {" "}
-                    Je cherche un poste de <strong>consultante Microsoft Power Platform</strong>
+                    Je cherche un poste de <strong id="typed-text"></strong>
                   </div>
                 </div>
                 <div className="description">

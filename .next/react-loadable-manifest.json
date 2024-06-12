@@ -3,7 +3,7 @@
     "id": 6499,
     "files": [
       "static/chunks/391.844967eec0a86544.js",
-      "static/chunks/499.077eb44c8a9a93bf.js"
+      "static/chunks/499.89a3bdc0ba7f5957.js"
     ]
   },
   "work-single-10.jsx -> ../src/components/WorkSingleISotope": {
@@ -76,14 +76,14 @@
     "id": 2647,
     "files": [
       "static/chunks/391.844967eec0a86544.js",
-      "static/chunks/647.d3a1e8efc164f178.js"
+      "static/chunks/647.09095c29db72472b.js"
     ]
   },
   "works.jsx -> ../src/components/PortfolioIsotope": {
     "id": 6499,
     "files": [
       "static/chunks/391.844967eec0a86544.js",
-      "static/chunks/499.077eb44c8a9a93bf.js"
+      "static/chunks/499.89a3bdc0ba7f5957.js"
     ]
   }
 }
