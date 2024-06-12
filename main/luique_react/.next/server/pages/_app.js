@@ -76,7 +76,11 @@ const App = ({ Component , pageProps  })=>{
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("title", {
-                        children: "Luique - Personal Portfolio React NextJS Template"
+                        children: "CV & portfolio - BACHMANN Tracy"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                        name: "description",
+                        content: "Portfolio et CV en ligne de Tracy Bachmann"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                         httpEquiv: "Content-Type",

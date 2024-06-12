@@ -232,7 +232,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single-4">
+                  <Link legacyBehavior href="/work-single-5">
                     <a>
                       <img
                         decoding="async"
@@ -247,7 +247,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Développement web </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single-4">
+                  <Link legacyBehavior href="/work-single-5">
                     <a>O'Blog</a>
                   </Link>
                 </h5>
@@ -255,7 +255,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                   <p>
                   Un blog client avec affichage des catégories et auteurs, gestion des liens internes, et structuration des données via des classes PHP pour un site interactif et bien organisé.                  </p>
                 </div>
-                <Link legacyBehavior href="/work-single-4">
+                <Link legacyBehavior href="/work-single-5">
                   <a className="lnk">Plus d'infos</a>
                 </Link>
               </div>
@@ -275,7 +275,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single-5">
+                  <Link legacyBehavior href="/work-single-6">
                     <a>
                       <img
                         decoding="async"
@@ -290,7 +290,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Développement web </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single-5">
+                  <Link legacyBehavior href="/work-single-6">
                     <a>oCaffe</a>
                   </Link>
                 </h5>
@@ -300,7 +300,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                   l'origine locale des ingrédients, avec des informations détaillées sur les cafés, thés et pâtisseries proposés.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single-5">
+                <Link legacyBehavior href="/work-single-6">
                   <a className="lnk">Plus d'infos</a>
                 </Link>
               </div>
@@ -320,7 +320,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single-6">
+                  <Link legacyBehavior href="/work-single-4">
                     <a>
                       <img
                         decoding="async"
@@ -335,7 +335,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Développement web, Gestion de données</span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single-6">
+                  <Link legacyBehavior href="/work-single-4">
                     <a>oShop</a>
                   </Link>
                 </h5>
@@ -346,7 +346,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                   avec une gestion du panier et un back-office pour les administrateurs.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single-6">
+                <Link legacyBehavior href="/work-single-4">
                   <a className="lnk">Plus d'infos</a>
                 </Link>
               </div>
@@ -366,7 +366,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single-7">
+                  <Link legacyBehavior href="/work-single-8">
                     <a>
                       <img
                         decoding="async"
@@ -381,7 +381,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Développement web</span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single-7">
+                  <Link legacyBehavior href="/work-single-8">
                     <a>Advertizr</a>
                   </Link>
                 </h5>
@@ -389,52 +389,6 @@ const PortfolioIsotope = ({ noViewMore }) => {
                   <p>
                   Un système permettant de créer des bandeaux publicitaires interactifs avec un clavier virtuel. 
                   Le site permet de configurer les messages affichés en temps réel sur les bandeaux.
-                  </p>
-                </div>
-                <Link legacyBehavior href="/work-single-7">
-                  <a className="lnk">Plus d'infos</a>
-                </Link>
-              </div>
-              <div
-                className="bg-img"
-                style={{
-                  backgroundImage: "url(assets/images/pat-2.png)",
-                }}
-              />
-            </div>
-          </div>
-
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-photo ">
-            <div
-              className="works-item scrolla-element-anim-1 scroll-animate"
-              data-animate="active"
-            >
-              <div className="image">
-                <div className="img">
-                  <Link legacyBehavior href="/work-single-8">
-                    <a>
-                      <img
-                        decoding="async"
-                        src="assets/images/osoundboard.png"
-                        alt="Kana"
-                      />
-                      <span className="overlay" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-              <div className="desc">
-                <span className="category"> Développement web</span>
-                <h5 className="name">
-                  <Link legacyBehavior href="/work-single-8">
-                    <a>O'Soundboard</a>
-                  </Link>
-                </h5>
-                <div className="text">
-                  <p>
-                  Une application où chaque bouton déclenche un son spécifique. 
-                  Les utilisateurs peuvent appuyer sur les "pads" pour jouer des sons et 
-                  même contrôler les pads à partir du clavier pour une expérience interactive et amusante.
                   </p>
                 </div>
                 <Link legacyBehavior href="/work-single-8">
@@ -461,6 +415,52 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     <a>
                       <img
                         decoding="async"
+                        src="assets/images/osoundboard.png"
+                        alt="Kana"
+                      />
+                      <span className="overlay" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="desc">
+                <span className="category"> Développement web</span>
+                <h5 className="name">
+                  <Link legacyBehavior href="/work-single-9">
+                    <a>O'Soundboard</a>
+                  </Link>
+                </h5>
+                <div className="text">
+                  <p>
+                  Une application où chaque bouton déclenche un son spécifique. 
+                  Les utilisateurs peuvent appuyer sur les "pads" pour jouer des sons et 
+                  même contrôler les pads à partir du clavier pour une expérience interactive et amusante.
+                  </p>
+                </div>
+                <Link legacyBehavior href="/work-single-9">
+                  <a className="lnk">Plus d'infos</a>
+                </Link>
+              </div>
+              <div
+                className="bg-img"
+                style={{
+                  backgroundImage: "url(assets/images/pat-2.png)",
+                }}
+              />
+            </div>
+          </div>
+
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-photo ">
+            <div
+              className="works-item scrolla-element-anim-1 scroll-animate"
+              data-animate="active"
+            >
+              <div className="image">
+                <div className="img">
+                  <Link legacyBehavior href="/work-single-7">
+                    <a>
+                      <img
+                        decoding="async"
                         src="assets/images/todolist.png"
                         alt="Kana"
                       />
@@ -472,7 +472,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Développement web, Gestion de données</span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single-9">
+                  <Link legacyBehavior href="/work-single-7">
                     <a>ToDo List</a>
                   </Link>
                 </h5>
@@ -483,7 +483,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                   avec une interface claire et des fonctionnalités robustes.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single-9">
+                <Link legacyBehavior href="/work-single-7">
                   <a className="lnk">Plus d'infos</a>
                 </Link>
               </div>
