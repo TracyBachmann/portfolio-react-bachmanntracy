@@ -47,10 +47,6 @@ const Index = () => {
                   </h1>
                   <div className="label lui-subtitle">
                     {" "}
-                    Je suis <strong>développeuse web fullstack</strong>
-                  </div>
-                  <div className="label lui-subtitle">
-                    {" "}
                     Je cherche un poste de <strong>consultante Microsoft Power Platform</strong>
                   </div>
                 </div>
