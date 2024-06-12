@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Resume from "../src/components/Resume";
 import Layout from "../src/layouts/Layout";
+import { useState } from "react";
 import {
   servicesSliderProps,
   testimonialsSliderProps,
@@ -14,6 +15,49 @@ const PortfolioIsotope = dynamic(
   }
 );
 const Index = () => {
+    const [formData, setFormData] = useState({
+      name: '',
+      email: '',
+      subject: '',
+      message: ''
+    });
+  
+    const [formStatus, setFormStatus] = useState('');
+  
+    const handleChange = (e) => {
+      const { name, value } = e.target;
+      setFormData((prevData) => ({ ...prevData, [name]: value }));
+    };
+  
+    const handleSubmit = async (e) => {
+      e.preventDefault();
+      setFormStatus('Envoi en cours...');
+  
+      try {
+        const res = await fetch('/api/contact', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
+        });
+  
+        if (res.status === 200) {
+          setFormStatus('Message envoyé avec succès !');
+          setFormData({
+            name: '',
+            email: '',
+            subject: '',
+            message: ''
+          });
+        } else {
+          setFormStatus('Erreur lors de l\'envoi du message.');
+        }
+      } catch (error) {
+        setFormStatus('Erreur lors de l\'envoi du message.');
+      }
+    };
+  
   return (
     <Layout pageClassName={"home"}>
       {/* Section - Hero Started */}
@@ -798,167 +842,132 @@ const Index = () => {
 
       {/* Section - Contacts */}
       <section className="lui-section lui-gradient-bottom" id="contact-section">
-        {/* Heading */}
-        <div className="lui-heading">
-          <div className="container">
-            <div className="m-titles align-center">
-              <h2
-                className="m-title splitting-text-anim-1 scroll-animate"
-                data-splitting="words"
-                data-animate="active"
-              >
-                <span> Contactez-moi </span>
-              </h2>
-              <div
-                className="m-subtitle splitting-text-anim-1 scroll-animate"
-                data-splitting="words"
-                data-animate="active"
-              >
-                <span>
-                  {" "}
-                  Discutons de <b>vos projets</b>
-                </span>
+  {/* Heading */}
+  <div className="lui-heading">
+    <div className="container">
+      <div className="m-titles align-center">
+        <h2 className="m-title splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
+          <span> Contactez-moi </span>
+        </h2>
+        <div className="m-subtitle splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
+          <span> Discutons de <b>vos projets</b></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  {/* Contact */}
+  <div className="lui-contacts v-line v-line-left">
+    <div className="container">
+      <div className="row">
+        <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+          <div className="numbers-items">
+            <div className="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+              <div className="icon">
+                <i aria-hidden="true" className="far fa-map" />
+              </div>
+              <div className="title">
+                <span> Adresse </span>
+              </div>
+              <div className="lui-text">
+                <span> 22 rue Primo Lévi, Strasbourg </span>
+              </div>
+            </div>
+            <div className="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+              <div className="icon">
+                <i aria-hidden="true" className="far fa-user" />
+              </div>
+              <div className="title">
+                <span> Open to Work </span>
+              </div>
+              <div className="lui-text">
+                <span> Freelance, alternance & CDI  </span>
+              </div>
+            </div>
+            <div className="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+              <div className="icon">
+                <i aria-hidden="true" className="far fa-envelope" />
+              </div>
+              <div className="title">
+                <span> Email </span>
+              </div>
+              <div className="lui-text">
+                <span> tracy.bachmann68@gmail.com </span>
+              </div>
+            </div>
+            <div className="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+              <div className="icon">
+                <i aria-hidden="true" className="far fa-address-book" />
+              </div>
+              <div className="title">
+                <span> Téléphone </span>
+              </div>
+              <div className="lui-text">
+                <span> 07.71.01.51.60 </span>
               </div>
             </div>
           </div>
         </div>
-        {/* Contact */}
-        <div className="lui-contacts v-line v-line-left">
-          <div className="container">
-            <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5">
-                <div className="numbers-items">
-                  <div
-                    className="numbers-item scrolla-element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <div className="icon">
-                      <i aria-hidden="true" className="far fa-map" />
-                    </div>
-                    <div className="title">
-                      <span> Adresse </span>
-                    </div>
-                    <div className="lui-text">
-                      <span> 22 rue Primo Lévi, Strasbourg </span>
+        <div className="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+          <div className="contacts-form scrolla-element-anim-1 scroll-animate" data-animate="active">
+            <div className="bg-img" style={{ backgroundImage: "url(assets/images/pat-1.png)" }} />
+            <div className="contacts-form">
+              <form onSubmit={handleSubmit}>
+                <div className="row">
+                  <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div className="group">
+                      <label>
+                        Votre nom complet <b>*</b>
+                        <input type="text" name="name" value={formData.name} onChange={handleChange} required />
+                      </label>
                     </div>
                   </div>
-                  <div
-                    className="numbers-item scrolla-element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <div className="icon">
-                      <i aria-hidden="true" className="far fa-user" />
-                    </div>
-                    <div className="title">
-                      <span> Open to Work </span>
-                    </div>
-                    <div className="lui-text">
-                      <span> Freelance, alternance & CDI  </span>
+                  <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div className="group">
+                      <label>
+                        Votre adresse email <b>*</b>
+                        <input type="email" name="email" value={formData.email} onChange={handleChange} required />
+                      </label>
                     </div>
                   </div>
-                  <div
-                    className="numbers-item scrolla-element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <div className="icon">
-                      <i aria-hidden="true" className="far fa-envelope" />
-                    </div>
-                    <div className="title">
-                      <span> Email </span>
-                    </div>
-                    <div className="lui-text">
-                      <span> tracy.bachmann68@gmail.com </span>
+                  <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div className="group">
+                      <label>
+                        Sujet de l'email <b>*</b>
+                        <input type="text" name="subject" value={formData.subject} onChange={handleChange} required />
+                      </label>
                     </div>
                   </div>
-                  <div
-                    className="numbers-item scrolla-element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <div className="icon">
-                      <i aria-hidden="true" className="far fa-address-book" />
+                  <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div className="group">
+                      <label>
+                        Votre message <b>*</b>
+                        <textarea name="message" value={formData.message} onChange={handleChange} required />
+                      </label>
                     </div>
-                    <div className="title">
-                      <span> Téléphone </span>
+                  </div>
+                  <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-right">
+                    <div className="terms-label">
+                      * Acceptez les termes et conditions.
                     </div>
-                    <div className="lui-text">
-                      <span> 07.71.01.51.60 </span>
-                    </div>
+                    <button type="submit" className="btn">
+                      <span>Envoyer mon message</span>
+                    </button>
                   </div>
                 </div>
+              </form>
+              <div className="alert-success" style={{ display: formStatus ? 'block' : 'none' }}>
+                <p>{formStatus}</p>
               </div>
-              <div className="col-xs-12 col-sm-12 col-md-7 col-lg-7">
-                <div
-                  className="contacts-form scrolla-element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  <div
-                    className="bg-img"
-                    style={{
-                      backgroundImage: "url(assets/images/pat-1.png)",
-                    }}
-                  />
-                  <div className="contacts-form">
-                    <form onSubmit={(e) => e.preventDefault()} id="cform">
-                      <div className="row">
-                        <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                          <div className="group">
-                            <label>
-                              Votre nom complet <b>*</b>
-                              <input type="text" name="name" />
-                            </label>
-                          </div>
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                          <div className="group">
-                            <label>
-                              Votre adresse email <b>*</b>
-                              <input type="email" name="email" />
-                            </label>
-                          </div>
-                        </div>
-                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                          <div className="group">
-                            <label>
-                              Sujet de l'email <b>*</b>
-                              <input type="text" name="subject" />
-                            </label>
-                          </div>
-                        </div>
-                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                          <div className="group">
-                            <label>
-                              Votre message <b>*</b>
-                              <textarea name="message" defaultValue={""} />
-                            </label>
-                          </div>
-                        </div>
-                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-right">
-                          <div className="terms-label">
-                            * Acceptez les termes et conditions.
-                          </div>
-                          <a
-                            href="#"
-                            className="btn"
-                            onclick="$('#cform').submit(); return false;"
-                          >
-                            <span>Envoyer mon message</span>
-                          </a>
-                        </div>
-                      </div>
-                    </form>
-                    <div className="alert-success" style={{ display: "none" }}>
-                      <p>Votre message a été envoyé avec succès, je reviens vers vous aussi vite que possible !</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="lui-bgtitle">
-              <span> Contactez moi </span>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+      <div className="lui-bgtitle">
+        <span> Contactez moi </span>
+      </div>
+    </div>
+  </div>
+</section>
     </Layout>
   );
 };
