@@ -467,7 +467,7 @@ const Index = () => {
                 data-splitting="words"
                 data-animate="active"
               >
-                <span> Compétences professionnelles </span>
+                <span> Compétences techniques </span>
               </h2>
               <div
                 className="m-subtitle splitting-text-anim-1 scroll-animate"
@@ -664,7 +664,96 @@ const Index = () => {
               </div>
             </div>
             <div className="lui-bgtitle">
-              <span> Skills </span>
+              <span> Compétences techniques </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+            {/* Section - Skills */}
+            <section className="lui-section lui-gradient-center">
+        {/* Heading */}
+        <div className="lui-heading">
+          <div className="container">
+            <div className="m-titles align-center">
+              <h2
+                className="m-title splitting-text-anim-1 scroll-animate"
+                data-splitting="words"
+                data-animate="active"
+              >
+                <span> Compétences relationnelles et humaines </span>
+              </h2>
+              <div
+                className="m-subtitle splitting-text-anim-1 scroll-animate"
+                data-splitting="words"
+                data-animate="active"
+              >
+                <span> mes <b>qualités</b> </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Skills */}
+        <div className="v-line v-line-left">
+          <div className="container">
+            <div className="row">
+              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div className="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <h6 className="name"><span>Autonome</span></h6>
+                  <div className="text">
+                    <p>Capable de travailler de manière indépendante, en gérant efficacement mon temps et mes priorités sans supervision constante.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div className="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <h6 className="name"><span>Proactive</span></h6>
+                  <div className="text">
+                    <p>Toujours à l'affût des opportunités d'amélioration et prête à prendre des initiatives pour résoudre les problèmes avant qu'ils ne surviennent.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div className="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <h6 className="name"><span>Rigoureuse</span></h6>
+                  <div className="text">
+                    <p>Attachée aux détails et au respect des normes de qualité, garantissant ainsi des résultats précis et fiables dans chaque projet.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div className="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <h6 className="name"><span>Polyvalente</span></h6>
+                  <div className="text">
+                    <p>À l'aise dans divers rôles et capable de m'adapter rapidement à de nouvelles situations ou défis, grâce à une gamme étendue de compétences.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div className="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <h6 className="name"><span>Curieuse</span></h6>
+                  <div className="text">
+                    <p>Toujours en quête de nouvelles connaissances et compétences, je m'efforce de rester informée des dernières tendances et technologies.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div className="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <h6 className="name"><span>Apte à collaborer</span></h6>
+                  <div className="text">
+                    <p>Capable de travailler efficacement en équipe, en communiquant clairement et en contribuant de manière constructive à la réalisation des objectifs communs.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="lui-bgtitle">
+              <span> Compétences relationnelles & humaines </span>
             </div>
           </div>
         </div>
