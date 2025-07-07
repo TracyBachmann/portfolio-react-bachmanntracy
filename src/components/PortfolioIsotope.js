@@ -310,14 +310,14 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     Automate. Pipelines Azure DevOps pour le déploiement.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single-helpdesq">
+                <Link legacyBehavior href="/work-single-12">
                   <a className="lnk">Plus d'infos</a>
                 </Link>
               </div>
               <div
                   className="bg-img"
                   style={{
-                    backgroundImage: "url(assets/images/pat-12.png)",
+                    backgroundImage: "url(assets/images/pat-2.png)",
                   }}
               />
             </div>
