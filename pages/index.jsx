@@ -91,7 +91,7 @@ const Index = () => {
                   </h1>
                   <div className="label lui-subtitle">
                     {" "}
-                    Je cherche un poste de <strong id="typed-text"></strong>
+                    Je cherche une alternance de <strong id="typed-text"></strong>
                   </div>
                 </div>
                 <div className="description">
@@ -160,14 +160,14 @@ const Index = () => {
                   <ul>
                     <li>
                       <span className="num">
-                        6+ <strong>+</strong>
+                        8+ <strong>+</strong>
                       </span>
                       <span className="value">
                         <strong>Langages</strong> maîtrisés
                       </span>
                     </li>
                     <li>
-                      <span className="num">10+</span>
+                      <span className="num">12+</span>
                       <span className="value">
                         <strong>Projets</strong> réalisés
                       </span>
