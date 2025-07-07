@@ -97,9 +97,9 @@ const Index = () => {
                 <div className="description">
                   <div>
                     <p>
-                    Passionnée par le numérique depuis toujours, j'ai entrepris une reconversion professionnelle dans ce domaine. Après une formation intensive
-                    en développement web, je suis désormais prête à mettre mes compétences au service de vos projets. Toujours enthousiaste à l'idée d'apprendre
-                    et de progresser, je suis motivée par les défis et disponible pour collaborer sur des projets innovants et stimulants.
+                      Passionnée par le numérique, j’ai entrepris une reconversion professionnelle dans ce domaine. 
+                      Actuellement en fin de formation Concepteur Développeur d’Application en alternance chez Qwerio, 
+                      je souhaite poursuivre mon parcours en préparant l’équivalent master avec le titre Expert en informatique et systèmes d’information.
                     </p>
                   </div>
                   <div className="social-links">
@@ -530,7 +530,7 @@ const Index = () => {
                     <p>Développement de solutions automatisées et personnalisées avec Power Apps, Power Automate et Power BI pour améliorer l'efficacité et la productivité.</p>
                   </div>
                   <div className="dots">
-                    <div className="dot" style={{ width: '10%' }}><span /></div>
+                    <div className="dot" style={{ width: '60%' }}><span /></div>
                   </div>
                   <div className="value">
                     <span className="num">10<span>%</span></span>
@@ -540,9 +540,9 @@ const Index = () => {
               
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <div className="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
-                  <h6 className="name"><span>HTML/CSS</span></h6>
+                  <h6 className="name"><span>HTML/CSS/SCSS</span></h6>
                   <div className="text">
-                    <p>Création de pages web réactives et esthétiques en utilisant HTML, CSS et des frameworks comme Bootstrap et Tailwind pour un design moderne et mobile-first.</p>
+                    <p>Création de pages web réactives et esthétiques en utilisant HTML, CSS, SCSS et des frameworks comme Bootstrap et Tailwind pour un design moderne et mobile-first.</p>
                   </div>
                   <div className="dots">
                     <div className="dot" style={{ width: '95%' }}><span /></div>
@@ -555,15 +555,29 @@ const Index = () => {
 
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <div className="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
-                  <h6 className="name"><span>JavaScript (React)</span></h6>
+                  <h6 className="name"><span>JavaScript (React, Angular)</span></h6>
                   <div className="text">
-                    <p>Développement d'applications web dynamiques et interactives avec JavaScript et le framework React, en mettant l'accent sur les composants réutilisables et la gestion de l'état.</p>
-                  </div>
+                    <p>Développement d'applications web dynamiques et interactives avec JavaScript, en utilisant les frameworks React et Angular, en mettant l'accent sur les composants réutilisables et la gestion de l'état.</p>                  </div>
                   <div className="dots">
                     <div className="dot" style={{ width: '75%' }}><span /></div>
                   </div>
                   <div className="value">
                     <span className="num">75<span>%</span></span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div className="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <h6 className="name"><span>ASP.NET Core / C#</span></h6>
+                  <div className="text">
+                    <p>Développement d'applications web et API robustes avec ASP.NET Core et C#, en mettant l'accent sur la performance, la sécurité et les bonnes pratiques de conception.</p>
+                  </div>
+                  <div className="dots">
+                    <div className="dot" style={{ width: '70%' }}><span /></div>
+                  </div>
+                  <div className="value">
+                    <span className="num">60<span>%</span></span>
                   </div>
                 </div>
               </div>
@@ -630,9 +644,9 @@ const Index = () => {
 
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <div className="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
-                  <h6 className="name"><span>Git & Github</span></h6>
+                  <h6 className="name"><span>Git, GitHub & Jira</span></h6>
                   <div className="text">
-                    <p>Utilisation de Git pour le contrôle de version et la gestion du code source, et de GitHub pour la collaboration et le partage de projets de développement.</p>
+                    <p>Utilisation de Git pour le contrôle de version et la gestion du code source, de GitHub pour la collaboration et le partage de projets, et de Jira pour le suivi des tâches, la planification et la gestion de projet Agile.</p>
                   </div>
                   <div className="dots">
                     <div className="dot" style={{ width: '90%' }}><span /></div>
@@ -684,6 +698,21 @@ const Index = () => {
                   </div>
                   <div className="value">
                     <span className="num">50<span>%</span></span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div className="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <h6 className="name"><span>Azure & Azure DevOps</span></h6>
+                  <div className="text">
+                    <p>Utilisation d’Azure pour le déploiement cloud et la gestion des services, et d’Azure DevOps pour l’intégration continue, le suivi des versions et la collaboration d’équipe.</p>
+                  </div>
+                  <div className="dots">
+                    <div className="dot" style={{ width: '50%' }}><span /></div>
+                  </div>
+                  <div className="value">
+                    <span className="num">55<span>%</span></span>
                   </div>
                 </div>
               </div>

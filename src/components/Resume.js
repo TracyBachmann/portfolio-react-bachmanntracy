@@ -3,6 +3,14 @@ import { useState } from "react";
 const educationData = [
   {
     id: 1,
+    title: "Titre Professionnel (bac+3/4) Concepteur Développeur d'Applications",
+    academy: "M2Iformation",
+    dec: "Formation en conception et développement d'applications ; passage du titre prévu en octobre 2025.",
+    startYear: "2024",
+    endYear: "2025",
+  },
+  {
+    id: 2,
     title: "Titre Professionnel (bac+2/3) Développeur Web et Web Mobile",
     academy: "O'clock",
     dec: "Formation en développement web et mobile ; titre passé le 06/06/2024 et résultats pas encore obtenus.",
@@ -10,7 +18,7 @@ const educationData = [
     endYear: "2024",
   },
   {
-    id: 2,
+    id: 3,
     title: "Autoformation sur le développement web",
     academy: "OpenClassrooms",
     dec: "Auto-apprentissage des bases du développement web (HTML, CSS & JavaScript).",
@@ -18,7 +26,7 @@ const educationData = [
     endYear: "2023",
   },
   {
-    id: 3,
+    id: 4,
     title: "Licence archéologie et histoire de l'art",
     academy: "UNISTRA",
     dec: "Études en archéologie et histoire de l'art, spécialité égyptologie et papyrologie.",
@@ -26,7 +34,7 @@ const educationData = [
     endYear: "2022",
   },
   {
-    id: 4,
+    id: 5,
     title: "Classe préparatoire littéraire",
     academy: "Lycée Fustel de Coulanges",
     dec: "Préparation intensive aux études littéraires.",
@@ -34,7 +42,7 @@ const educationData = [
     endYear: "2020",
   },
   {
-    id: 5,
+    id: 6,
     title: "Baccalauréat général Littéraire",
     academy: "Lycée Michel de Montaigne",
     dec: "Diplôme de fin d'études secondaires en littérature",
@@ -46,14 +54,14 @@ const educationData = [
 const experienceData = [
   {
     id: 1,
-    title: "Formatrice sur le numérique",
-    company: "Emmaus Connect",
-    dec: "Équiper, connecter et accompagner les publics éloignés du numérique.",
-    startYear: "2023",
-    endYear: "2024",
+    title: "Consultante Microsoft",
+    company: "Qwerio",
+    dec: "Développement de solutions numériques via la Power Platform et du développement spécifique (CRM, outil de ticketing)",
+    startYear: "2024",
+    endYear: "2025",
   },
   {
-    id: 2,
+    id: 3,
     title: "Responsable de l'accueil, guide et administratrice des BDD",
     company: "AMAM",
     dec: "Administration, acueil, surveillance, recherche et documentation au sein du musée de l'UNISTRA.",
@@ -61,7 +69,7 @@ const experienceData = [
     endYear: "2022",
   },
   {
-    id: 3,
+    id: 4,
     title: "Divers jobs alimentaires",
     company: "RGIS, Gifi, ...",
     dec: "Inventoriste, équipière polyvalente, préparatrice de commandes, ...",
