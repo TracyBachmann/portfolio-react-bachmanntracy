@@ -278,6 +278,51 @@ const PortfolioIsotope = ({ noViewMore }) => {
             </div>
           </div>
 
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-gestion-de-donnees sorting-power-platform sorting-devops-&-infra">
+            <div className="works-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+              <div className="image">
+                <div className="img">
+                  <Link legacyBehavior href="/work-single-helpdesq">
+                    <a>
+                      <img
+                          decoding="async"
+                          src="assets/images/frontofficehelpdesq.png"
+                          alt="HelpdesQ"
+                      />
+                      <span className="overlay" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="desc">
+      <span className="category">
+        Gestion de données, Power Platform, DevOps & Infra
+      </span>
+                <h5 className="name">
+                  <Link legacyBehavior href="/work-single-helpdesq">
+                    <a>HelpdesQ</a>
+                  </Link>
+                </h5>
+                <div className="text">
+                  <p>
+                    Outil de ticketing avec Power Apps Model-Driven pour les consultants et
+                    Power Pages pour les clients. Automatisation des workflows via Power
+                    Automate. Pipelines Azure DevOps pour le déploiement.
+                  </p>
+                </div>
+                <Link legacyBehavior href="/work-single-helpdesq">
+                  <a className="lnk">Plus d'infos</a>
+                </Link>
+              </div>
+              <div
+                  className="bg-img"
+                  style={{
+                    backgroundImage: "url(assets/images/pat-12.png)",
+                  }}
+              />
+            </div>
+          </div>
+          
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-developpement-web">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
