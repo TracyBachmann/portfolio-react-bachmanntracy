@@ -73,15 +73,6 @@ const PortfolioIsotope = ({ noViewMore }) => {
           </a>
           <a
             className={`c-pointer lui-subtitle ${activeBtn(
-              "sorting-automatisation"
-            )}`}
-            onClick={handleFilterKeyChange("sorting-automatisation")}
-            data-href=".sorting-automatisation"
-          >
-            Automatisation
-          </a>
-          <a
-            className={`c-pointer lui-subtitle ${activeBtn(
               "sorting-gestion-de-projet"
             )}`}
             onClick={handleFilterKeyChange("sorting-gestion-de-projet")}
@@ -89,6 +80,25 @@ const PortfolioIsotope = ({ noViewMore }) => {
           >
             Gestion de projet
           </a>
+          <a
+              className={`c-pointer lui-subtitle ${activeBtn(
+                  "sorting-power-platform"
+              )}`}
+              onClick={handleFilterKeyChange("sorting-power-platform")}
+              data-href=".sorting-power-platform"
+          >
+            Power Platform
+          </a>
+          <a
+              className={`c-pointer lui-subtitle ${activeBtn(
+                  "sorting-devops-&-infra"
+              )}`}
+              onClick={handleFilterKeyChange("sorting-devops-&-infra")}
+              data-href=".sorting-devops-&-infra"
+          >
+            DevOps & Infra
+          </a>
+          
         </div>
         <div className="works-items works-masonry-items row">
 
