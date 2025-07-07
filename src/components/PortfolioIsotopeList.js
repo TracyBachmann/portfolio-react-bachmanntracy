@@ -73,15 +73,6 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
           </a>
           <a
             className={`c-pointer lui-subtitle ${activeBtn(
-              "sorting-automatisation"
-            )}`}
-            onClick={handleFilterKeyChange("sorting-automatisation")}
-            data-href=".sorting-automatisation"
-          >
-            Automatisation
-          </a>
-          <a
-            className={`c-pointer lui-subtitle ${activeBtn(
               "sorting-gestion-de-projet"
             )}`}
             onClick={handleFilterKeyChange("sorting-gestion-de-projet")}
@@ -90,8 +81,64 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
             Gestion de projet
           </a>
 
+          <a className={`c-pointer lui-subtitle ${activeBtn("sorting-power-platform")}`} onClick={handleFilterKeyChange("sorting-power-platform")}>
+            Power Platform
+          </a>
+          <a className={`c-pointer lui-subtitle ${activeBtn("sorting-devops-infra")}`} onClick={handleFilterKeyChange("sorting-devops-infra")}>
+            DevOps & Infra
+          </a>
+
         </div>
         <div className="works-items works-list-items row">
+
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-gestion-de-donnees sorting-power-platform sorting-devops-infra">
+            <div
+                className="works-item scrolla-element-anim-1 scroll-animate"
+                data-animate="active"
+            >
+              <div className="image">
+                <div className="img">
+                  <Link legacyBehavior href="/work-single-helpdesq">
+                    <a>
+                      <img
+                          decoding="async"
+                          src="assets/images/frontofficehelpdesq.png"
+                          alt="HelpdesQ"
+                      />
+                      <span className="overlay" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="desc">
+      <span className="category">
+        Gestion de données, Power Platform, DevOps & Infra
+      </span>
+                <h5 className="name">
+                  <Link legacyBehavior href="/work-single-helpdesq">
+                    <a>HelpdesQ</a>
+                  </Link>
+                </h5>
+                <div className="text">
+                  <p>
+                    Outil de ticketing avec Power Apps Model-Driven pour les consultants et
+                    Power Pages pour les clients. Automatisation des workflows via Power
+                    Automate. Pipelines Azure DevOps pour le déploiement.
+                  </p>
+                </div>
+                <Link legacyBehavior href="/work-single-helpdesq">
+                  <a className="lnk">Plus d'infos</a>
+                </Link>
+              </div>
+              <div
+                  className="bg-img"
+                  style={{
+                    backgroundImage: "url(assets/images/pat-2.png)",
+                  }}
+              />
+            </div>
+          </div>
+          
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-developpement-web sorting-design sorting-gestion-de-projet sorting-gestion-de-donnees">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
