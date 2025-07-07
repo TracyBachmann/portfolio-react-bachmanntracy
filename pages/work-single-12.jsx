@@ -14,7 +14,7 @@ const WorkSingle = () => {
     const [videoToggle, setVideoToggle] = useState(false);
 
     return (
-        <Layout pageClassName={"portfolio-template"}>
+        <Layout pageClassName="portfolio-template">
             {/* Section Started Heading */}
             <section className="section section-inner started-heading">
                 <div className="container">
@@ -71,7 +71,7 @@ const WorkSingle = () => {
                 </div>
             </section>
 
-            {/* Section - Image */}
+            {/* Section - Gallery (Intro Images) */}
             <div className="section section-inner">
                 <div className="container">
                     <div className="m-gallery">
@@ -199,12 +199,12 @@ const WorkSingle = () => {
             <section className="section section-inner">
                 <div className="container">
                     <div className="row">
-                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div className="col-12">
                             <div className="post-content">
                                 <h4>Concept & fonctionnalités</h4>
                             </div>
                         </div>
-                        <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <div className="col-12 col-sm-6">
                             <div className="post-content">
                                 <p>
                                     HelpdesQ est un outil de ticketing développé sur Power Platform,
@@ -216,7 +216,7 @@ const WorkSingle = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <div className="col-12 col-sm-6">
                             <div className="post-content">
                                 <p>
                                     Les consultants peuvent gérer le cycle de vie complet des tickets
@@ -231,12 +231,12 @@ const WorkSingle = () => {
                 </div>
             </section>
 
-            {/* Section - Gallery */}
+            {/* Section - Gallery (Examples) */}
             <div className="section section-inner">
                 <div className="container">
                     <div className="m-gallery">
                         <div className="row">
-                            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <div className="col-12 col-sm-6">
                                 <div className="works-item">
                                     <div
                                         className="image scrolla-element-anim-1 scroll-animate"
@@ -258,7 +258,7 @@ const WorkSingle = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <div className="col-12 col-sm-6">
                                 <div className="works-item">
                                     <div
                                         className="image scrolla-element-anim-1 scroll-animate"
@@ -289,12 +289,12 @@ const WorkSingle = () => {
             <section className="section section-inner">
                 <div className="container">
                     <div className="row">
-                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div className="col-12">
                             <div className="post-content">
                                 <h4>Conception & impact</h4>
                             </div>
                         </div>
-                        <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <div className="col-12 col-sm-6">
                             <div className="post-content">
                                 <p>
                                     J'ai conçu des pipelines Power Apps pour le déploiement des
@@ -305,7 +305,7 @@ const WorkSingle = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <div className="col-12 col-sm-6">
                             <div className="post-content">
                                 <p>
                                     Ce projet démontre ma capacité à mettre en œuvre des solutions
