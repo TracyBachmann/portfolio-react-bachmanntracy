@@ -78,15 +78,9 @@ const WorkSingle = () => {
                         <div className="row">
                             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                                 <div className="works-item">
-                                    <div
-                                        className="image scrolla-element-anim-1 scroll-animate"
-                                        data-animate="active"
-                                    >
+                                    <div className="image scrolla-element-anim-1 scroll-animate" data-animate="active">
                                         <div className="img">
-                                            <a
-                                                href="/assets/images/frontofficehelpdesq.png"
-                                                className="has-popup-image"
-                                            >
+                                            <a href="/assets/images/frontofficehelpdesq.png" className="has-popup-image">
                                                 <img
                                                     decoding="async"
                                                     src="/assets/images/frontofficehelpdesq.png"
@@ -101,15 +95,9 @@ const WorkSingle = () => {
 
                             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                                 <div className="works-item">
-                                    <div
-                                        className="image scrolla-element-anim-1 scroll-animate"
-                                        data-animate="active"
-                                    >
+                                    <div className="image scrolla-element-anim-1 scroll-animate" data-animate="active">
                                         <div className="img">
-                                            <a
-                                                href="/assets/images/pipelines.png"
-                                                className="has-popup-image"
-                                            >
+                                            <a href="/assets/images/pipelines.png" className="has-popup-image">
                                                 <img
                                                     decoding="async"
                                                     src="/assets/images/pipelines.png"
@@ -124,15 +112,9 @@ const WorkSingle = () => {
 
                             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                                 <div className="works-item">
-                                    <div
-                                        className="image scrolla-element-anim-1 scroll-animate"
-                                        data-animate="active"
-                                    >
+                                    <div className="image scrolla-element-anim-1 scroll-animate" data-animate="active">
                                         <div className="img">
-                                            <a
-                                                href="/assets/images/backofficehelpdesq.png"
-                                                className="has-popup-image"
-                                            >
+                                            <a href="/assets/images/backofficehelpdesq.png" className="has-popup-image">
                                                 <img
                                                     decoding="async"
                                                     src="/assets/images/backofficehelpdesq.png"
@@ -147,15 +129,9 @@ const WorkSingle = () => {
 
                             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                                 <div className="works-item">
-                                    <div
-                                        className="image scrolla-element-anim-1 scroll-animate"
-                                        data-animate="active"
-                                    >
+                                    <div className="image scrolla-element-anim-1 scroll-animate" data-animate="active">
                                         <div className="img">
-                                            <a
-                                                href="/assets/images/backofficehelpdesq2.png"
-                                                className="has-popup-image"
-                                            >
+                                            <a href="/assets/images/backofficehelpdesq2.png" className="has-popup-image">
                                                 <img
                                                     decoding="async"
                                                     src="/assets/images/backofficehelpdesq2.png"
@@ -170,15 +146,9 @@ const WorkSingle = () => {
 
                             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                                 <div className="works-item">
-                                    <div
-                                        className="image scrolla-element-anim-1 scroll-animate"
-                                        data-animate="active"
-                                    >
+                                    <div className="image scrolla-element-anim-1 scroll-animate" data-animate="active">
                                         <div className="img">
-                                            <a
-                                                href="/assets/images/backofficehelpdesq3.png"
-                                                className="has-popup-image"
-                                            >
+                                            <a href="/assets/images/backofficehelpdesq3.png" className="has-popup-image">
                                                 <img
                                                     decoding="async"
                                                     src="/assets/images/backofficehelpdesq3.png"
@@ -195,7 +165,7 @@ const WorkSingle = () => {
                 </div>
             </div>
 
-            {/* Section - Description */}
+            {/* Section - Concept & fonctionnalités + Gallery Examples */}
             <section className="section section-inner">
                 <div className="container">
                     <div className="row">
@@ -228,25 +198,15 @@ const WorkSingle = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
 
-            {/* Section - Gallery (Examples) */}
-            <div className="section section-inner">
-                <div className="container">
-                    <div className="m-gallery">
+                    {/* Inline Gallery right after the text */}
+                    <div className="m-gallery" style={{ marginTop: "40px" }}>
                         <div className="row">
                             <div className="col-12 col-sm-6">
                                 <div className="works-item">
-                                    <div
-                                        className="image scrolla-element-anim-1 scroll-animate"
-                                        data-animate="active"
-                                    >
+                                    <div className="image scrolla-element-anim-1 scroll-animate" data-animate="active">
                                         <div className="img">
-                                            <a
-                                                href="/assets/images/helpdesq-ex1.png"
-                                                className="has-popup-image"
-                                            >
+                                            <a href="/assets/images/helpdesq-ex1.png" className="has-popup-image">
                                                 <img
                                                     decoding="async"
                                                     src="/assets/images/helpdesq-ex1.png"
@@ -260,15 +220,9 @@ const WorkSingle = () => {
                             </div>
                             <div className="col-12 col-sm-6">
                                 <div className="works-item">
-                                    <div
-                                        className="image scrolla-element-anim-1 scroll-animate"
-                                        data-animate="active"
-                                    >
+                                    <div className="image scrolla-element-anim-1 scroll-animate" data-animate="active">
                                         <div className="img">
-                                            <a
-                                                href="/assets/images/helpdesq-ex2.png"
-                                                className="has-popup-image"
-                                            >
+                                            <a href="/assets/images/helpdesq-ex2.png" className="has-popup-image">
                                                 <img
                                                     decoding="async"
                                                     src="/assets/images/helpdesq-ex2.png"
@@ -283,9 +237,9 @@ const WorkSingle = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            {/* Section - Description */}
+            {/* Section - Conception & impact */}
             <section className="section section-inner">
                 <div className="container">
                     <div className="row">
@@ -312,8 +266,9 @@ const WorkSingle = () => {
                                     professionnelles sur Power Platform, à automatiser les
                                     processus critiques via Power Automate, et à assurer un
                                     déploiement structuré et sécurisé avec Azure DevOps. Il
-                                    illustre également mes compétences en conception d'applications
-                                    orientées utilisateur et en gestion de données complexes.
+                                    illustre également mes compétences en conception
+                                    d'applications orientées utilisateur et en gestion de données
+                                    complexes.
                                 </p>
                             </div>
                         </div>
