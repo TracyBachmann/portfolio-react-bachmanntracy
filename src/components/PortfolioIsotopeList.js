@@ -115,7 +115,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
         Gestion de données, Power Platform, DevOps & Infra
       </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single-helpdesq">
+                  <Link legacyBehavior href="/work-single-12">
                     <a>HelpdesQ</a>
                   </Link>
                 </h5>
@@ -126,7 +126,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                     Automate. Pipelines Azure DevOps pour le déploiement.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single-helpdesq">
+                <Link legacyBehavior href="/work-single-12">
                   <a className="lnk">Plus d'infos</a>
                 </Link>
               </div>
