@@ -5,7 +5,7 @@ import Typed from 'typed.js';
 import "../styles/globals.css";
 
 const options = {
-  strings: ["développeuse web fullstack", "consultante Microsoft Power Platform"],
+  strings: ["concepteur développeur", "consultante Microsoft"],
   typeSpeed: 50,
   backSpeed: 25,
   backDelay: 2000,
