@@ -533,7 +533,7 @@ const Index = () => {
                     <div className="dot" style={{ width: '60%' }}><span /></div>
                   </div>
                   <div className="value">
-                    <span className="num">10<span>%</span></span>
+                    <span className="num">60<span>%</span></span>
                   </div>
                 </div>
               </div>
@@ -577,7 +577,7 @@ const Index = () => {
                     <div className="dot" style={{ width: '70%' }}><span /></div>
                   </div>
                   <div className="value">
-                    <span className="num">60<span>%</span></span>
+                    <span className="num">70<span>%</span></span>
                   </div>
                 </div>
               </div>
@@ -619,10 +619,10 @@ const Index = () => {
                     <p>Création de designs intuitifs et de maquettes fonctionnelles pour des interfaces utilisateur avec des outils comme Figma, Canva et Whimsical, favorisant une expérience utilisateur optimale.</p>
                   </div>
                   <div className="dots">
-                    <div className="dot" style={{ width: '70%' }}><span /></div>
+                    <div className="dot" style={{ width: '60%' }}><span /></div>
                   </div>
                   <div className="value">
-                    <span className="num">70<span>%</span></span>
+                    <span className="num">60<span>%</span></span>
                   </div>
                 </div>
               </div>
@@ -709,7 +709,7 @@ const Index = () => {
                     <p>Utilisation d’Azure pour le déploiement cloud et la gestion des services, et d’Azure DevOps pour l’intégration continue, le suivi des versions et la collaboration d’équipe.</p>
                   </div>
                   <div className="dots">
-                    <div className="dot" style={{ width: '50%' }}><span /></div>
+                    <div className="dot" style={{ width: '55%' }}><span /></div>
                   </div>
                   <div className="value">
                     <span className="num">55<span>%</span></span>
