@@ -282,7 +282,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             <div className="works-item scrolla-element-anim-1 scroll-animate" data-animate="active">
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single-helpdesq">
+                  <Link legacyBehavior href="/work-single-12">
                     <a>
                       <img
                           decoding="async"
