@@ -299,7 +299,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
         Gestion de données, Power Platform, DevOps & Infra
       </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single-helpdesq">
+                  <Link legacyBehavior href="/work-single-12">
                     <a>HelpdesQ</a>
                   </Link>
                 </h5>
